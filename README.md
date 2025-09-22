@@ -1,0 +1,27 @@
+# Travel Website 🌍✈️
+
+A simple and modern travel website designed to showcase destinations, travel packages, and booking options.  
+This project is built to provide users with an easy way to explore trips, view offers, and plan their next vacation.
+
+---
+
+## Features 🚀
+- 🏖️ Browse popular destinations  
+- 📸 Photo galleries of travel spots  
+- 📅 Trip schedule and packages  
+- 📍 Interactive map (optional)  
+- 📱 Responsive design (works on desktop & mobile)  
+
+---
+
+## Tech Stack 💻
+- **HTML5** – structure  
+- **CSS3** – styling & responsive design  
+- **JavaScript** – interactivity (optional)  
+
+---
+
+## How to Use ⚙️
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/travel-website.git
