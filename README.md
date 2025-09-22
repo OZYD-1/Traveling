@@ -17,11 +17,5 @@ This project is built to provide users with an easy way to explore trips, view o
 ## Tech Stack 💻
 - **HTML5** – structure  
 - **CSS3** – styling & responsive design  
-- **JavaScript** – interactivity (optional)  
 
 ---
-
-## How to Use ⚙️
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/travel-website.git
