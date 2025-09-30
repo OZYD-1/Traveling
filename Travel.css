@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: blueviolet;
+}
+/* Header */
+.My-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+}
+.My-header img {
+    max-width: 160px;
+    height: auto;
+}
+.navecation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.navecation a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.6s ease;
+}
+.navecation a:hover {
+    font-size: 17px;
+    color: aqua;
+}
+hr {
+    opacity: 50%;
+}
+/* description */
+.My-description {
+    display: flex;
+    margin:120px 0 0 300px;
+    padding: 0 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.My-description h1 {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+.My-description span {
+    font-weight: bold;
+    color: aqua;
+}
+.My-description img {
+    max-width: 100%;
+    height: auto;
+}
+/* About */
+.My-About {
+    text-align: center;
+     color:#fff;
+}
+.title {
+    -webkit-text-stroke: 0.2px black;
+    padding: 60px 120px 15px 70px;
+    margin: 300px 90px 0px 90px;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.My-About .title h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.q1 {
+    color: red;
+    font-size: 40px;
+}
+.q2 {
+    color: #17fc03;
+    font-size: 40px;
+}
+.title h4 {
+    color:aqua;
+}
+/* -------------------- */
+.all-element {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin:0 20px;
+    padding: 0 50px;
+    min-width: min-content;
+    border-radius: 20px;
+}
+.des {
+    border-radius: 10px;
+    display: flex;
+    margin: 75px;
+    padding-left: 50px;
+    flex-direction: row;
+    box-sizing: content-box;
+    
+}
+.des i{
+    max-width: 100%;
+    height: auto;
+    color: black;
+    font-size: 3rem;
+    margin-top: 30px;
+}
+.detail {
+    background-color: blueviolet;
+    color:aqua;
+    font-size: 15px;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.detail h3 {
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.detail h2 {
+    font-weight: bold;
+    font-family: 'Poppins';
+    color: #fff;
+    -webkit-text-stroke: 0.4px black;
+ 
+}
+.detail h6 {
+    font-weight: bold;
+    font-size: 0.7rem;
+    -webkit-text-stroke: 0.1px black;
+}
+/* Download */
+.My-Download {
+    margin: 200px;
+    padding: 200px 20px;
+    display: flex;
+    align-items: center;
+ }
+.My-Download h1 {
+    color: aqua;
+    font-weight: bold;
+    font-family: 'Poppins';
+    -webkit-text-stroke: 0.5px black;
+ }
+.My-Download h5 {
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.img1 img {
+    margin: 10px 0;
+    max-width: 300px;
+    padding-left: 10px;
+    transition: 0.4s ease;
+}
+.img1 img:hover {
+    background-color:transparent;
+    transform: scale(1.1);
+}
+.img2 img {
+    max-width: 100%;
+    height: auto;
+}
+/* sources */
+.hed {
+    margin-top: 600px;
+    justify-items: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+.Stores {
+    display: grid ;
+    grid-template-columns: auto auto auto auto;
+    margin: 0px 60px 300px 60px;
+    gap: 30px;
+     
+}
+.card {
+    box-shadow: 1px 5px 25px rgba(1 1 1 / 25%);
+    border-radius: 20px;
+    background: rgb(232, 232, 232);
+    transition: 0.6s ease;
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+.card a {
+    text-decoration: none;
+}
+.card h1 {
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 1.2rem;
+    color:#000000 ;
+    margin: 5px 0;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+.card p {
+  color: rgb(107, 33, 175);
+    font-family: 'Poppins';
+    padding-left: 15px;
+    margin-bottom: 5px;
+    text-shadow: 3px 2px 3px whitesmoke;
+}
+.card:hover {
+    transform: scale(1.06);
+    background-color: #a9abab ;
+}
+/* Contact */
+.My-Contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.My-Contact h3 {
+    transition: 0.6s ease;
+}
+.My-Contact h3:hover {
+    color: aqua;
+}
+.icon a{
+    color: #fff;
+    font-size: 20px;
+    padding-right: 40px;
+    transition: 0.5s ease;
+}
+.icon a:hover {
+    color: aqua;
+    font-size: 23px;
+}
+/* ------------------------------------------------ */
+.Create {
+    text-align: center;
+    font-weight: bold;
+}
+.Create h1{
+    font-family: 'Poppins';
+    font-size: small;
+    padding-bottom: 10px;
+}
+.Create span {
+    color: aqua;
+}
+/* ------------------------------------------------------------------------- */
+@media (max-width: 600px) {
+  .My-header {
+    position: relative;
+  }
+  .My-description {
+    margin: 40px 10px;
+    padding: 20px 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title {
+    padding: 30px 15px;
+    margin: 200px 20px 0 20px;
+  }
+
+  .all-element {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .des {
+    margin: 20px 0;
+    padding: 15px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .des i {
+    padding-bottom: 20px;
+  }
+  .My-Download {
+    margin: 100px 20px;
+    padding: 100px 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hed {
+    margin-top: 200px;
+    padding: 40px 20px;
+  }
+
+  .Stores {
+    grid-template-columns: 1fr;
+    margin: 20px 0 20px 5px;
+    max-width: 355px;
+    padding-left: 10px;
+    margin-right: 0;
+  }
+  .My-sources .Stores{
+    padding-bottom: 50px;
+  }
+  .My-Contact {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .My-Contact h3 {
+    padding-right: 35px;
+  }
+  .Create {
+    padding-right: 20px;
+  }
+}
+@media (min-width: 601px) and (max-width: 992px) {
+  .My-description {
+    margin: 60px 20px;
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .My-About .title {
+    font-size: 20px;
+    padding-left: 100px;
+    margin: 0;
+    margin-top: 300px;
+    padding-top: 100px;
+  }
+  .all-element {
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+  }
+  .des {
+    margin-right: 10px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .des i {
+    padding-bottom: 20px;
+  }
+  .My-Download {
+    margin: 100px 40px;
+    padding: 100px 20px 0 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .hed h1 {
+    margin-left: 50px;
+  }
+  .hed p {
+    margin-left: 50px;
+    font-size: 13px;
+  }
+  .hed {
+    padding-bottom: 0;
+  }
+  .Stores {
+    grid-template-columns: 1fr 1fr;
+    margin: 40px;
+  }
+  .My-Contact {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  .My-Contact h3 {
+    padding-right: 35px;
+  }
+  .Create {
+    padding-right: 35px;
+  }
+}
